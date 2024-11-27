@@ -1,0 +1,194 @@
+/* epilogue-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/epilogue-v17-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* epilogue-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/epilogue-v17-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* epilogue-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/epilogue-v17-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* epilogue-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/epilogue-v17-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* epilogue-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/epilogue-v17-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* epilogue-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/epilogue-v17-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+}
+
+.heder-line {
+  padding-top: 21px;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ul-line {
+  display: flex;
+  gap: 40px;
+}
+
+.ul-line {
+  margin-left: 63px;
+  li {
+    a {
+      font-family: "Epilogue";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+      list-style: none;
+      text-decoration: none;
+      color: #686868;
+    }
+  }
+}
+
+.header-bottom-line {
+  padding-left: 300px;
+}
+
+.login {
+  font-family: "Epilogue";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-decoration: none;
+  color: #686868;
+  padding-right: 40px;
+}
+
+.botton {
+  font-family: "Epilogue";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 13px 22px 13px 23px;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #686868;
+}
+
+.botton:hover {
+  background-color: #ffffff;
+  color: #151515;
+  border-color: #686868;
+}
+
+.main-line {
+  display: flex;
+  gap: 125px;
+}
+
+.main-text {
+  margin-top: 184px;
+  margin-left: 150px;
+
+  p:nth-child(1) {
+    font-family: "Epilogue";
+    font-size: 73px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #151515;
+  }
+
+  .text {
+    padding-top: 48px;
+    font-family: "Epilogue";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #686868;
+  }
+}
+
+.bottom {
+  font-family: "Epilogue";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 51px;
+  padding: 15px 28px 13px 31px;
+  background-color: #151515;
+  color: white;
+  border-radius: 12px;
+}
+
+.bottom:hover {
+  background-color: #ffffff;
+  color: #000;
+  border-color: #000;
+}
+
+.logo {
+  margin-top: 108px;
+}
+
+.img {
+  padding-top: 130px;
+}
