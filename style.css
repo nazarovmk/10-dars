@@ -107,7 +107,6 @@ li {
     }
   }
 }
-
 .ul-line {
   a:hover {
     color: #000;
@@ -124,6 +123,12 @@ li {
   font-weight: 400;
   line-height: 1.1em;
   color: #686868;
+  display: flex;
+  gap: 10px;
+
+  img:hover {
+    transform: rotate(180deg);
+  }
 }
 
 .item-text:hover {
